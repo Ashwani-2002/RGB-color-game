@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB Color Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="easygame.js" defer></script>
+    <script src="hardgame.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div id="color-part">
+        <h2>THE GREAT</h2>
+        <h1 id="rand-color">rgb(251,5,259)</h1>
+        <h2>COLOR GAME</h2>
+      </div>
+      <div id="menu-part">
+        <ul>
+          <li id="restart">NEW COLORS</li>
+          <li id="prompt">Correct!</li>
+          <li id="easy-game">EASY</li>
+          <li id="hard-game">HARD</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="easy-part">
+        <ul>
+          <li data-eid="1"></li>
+          <li data-eid="2"></li>
+          <li data-eid="3"></li>
+        </ul>
+      </section>
+      <section id="hard-part">
+        <ul>
+          <li data-hid="1"></li>
+          <li data-hid="2"></li>
+          <li data-hid="3"></li>
+          <li data-hid="4"></li>
+          <li data-hid="5"></li>
+          <li data-hid="6"></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

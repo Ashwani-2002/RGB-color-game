@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+
+  background-color: #292927;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  text-align: center;
+}
+#color-part {
+  margin: 0;
+  color: white;
+  background-color: rgba(255, 189, 1, 255);
+  padding: 5px 0px 20px 0px;
+  width: 100%;
+  align-items: center;
+}
+
+#rand-color {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+#color-part h2 {
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0 10px 0;
+  width: 100%;
+  align-items: center;
+}
+
+#menu-part ul {
+  list-style: none;
+  background-color: white;
+  height: 30px;
+  margin-top: -10px;
+  color: #7e4539;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+#restart {
+  flex-grow: 4;
+  text-align: right;
+  cursor: pointer;
+}
+#prompt {
+  flex-grow: 2;
+}
+#easy-game {
+  flex-grow: 0.5;
+  cursor: pointer;
+}
+#hard-game {
+  flex-grow: 4;
+  text-align: left;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 0;
+}
+
+#easy-part ul {
+  padding: 2vh 0 2vh 35vw;
+  list-style: none;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 150px 150px 150px;
+  gap: 15px 15px;
+}
+
+#easy-part li {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border-radius: 15px;
+}
+
+#hard-part ul {
+  padding: 2vh 0 2vh 35vw;
+  list-style: none;
+  display: none;
+  grid-template-columns: 150px 150px 150px;
+  gap: 15px 15px;
+}
+
+#hard-part li {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border-radius: 15px;
+}
